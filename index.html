@@ -1,0 +1,108 @@
+---
+layout: default
+title: Hao Liu
+picture: avater
+---
+<div class="page-header">
+  <div class="row">
+    <div class="col-sm-12">
+      <h3>Hao Liu </h3> <h5> chinese 刘昊</h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <address>
+        <!--<a href="https://en.wikipedia.org/wiki/Reader_(academic_rank)">Reader</a><br/> -->
+        <a>Computer Science</a><br/>
+        <a href="https://www.nju.edu.cn/EN/7f/6e/c7136a163694/page.htm">Kuang Yaming Honors School</a><br/>
+        <!--<a href="http://www.ed.ac.uk/schools-departments/informatics/">School of Informatics</a><br/> -->
+        <a href="https://www.nju.edu.cn/EN/">Nanjing University</a><br/>
+      </address>
+    </div>
+    <div class="col-sm-4">
+      <a href="mailto:hao.liu1@duke.edu"><span class="glyphicon glyphicon-envelope"></span></a> Email: hao.liu1@duke.edu<br/>
+      <!-- <a href="tel:+44-1316504430"><span class="glyphicon glyphicon-phone"></span>+44 131 650 4430</a><br/>
+      <a href="http://scholar.google.com/citations?user=u4sxKZwAAAAJ">
+        <img src="img/ico/gs.png" alt=""/>
+      </a> Google Scholar<br/> -->
+      <a href="http://github.com/hliu96">
+        <img src="img/ico/github_icon.png" alt=""/>
+      </a> Github: hliu96
+    </div>
+  </div>
+</div>
+
+<p>
+
+<!--
+I develop computational models of natural language learning,
+understanding and generation in people and machines, and my research
+focuses on basic scientific, mathematical, and engineering problems
+related to these models. I am especially interested in models
+that handle the diversity of morphological, syntactic, and semantic
+phenomena across the world’s languages.
+<a href="collaborators.html">My research group</a> is part of the larger
+<a href="http://groups.inf.ed.ac.uk/edinburghnlp/">Edinburgh NLP group</a>,
+and we collaborate with many people in Edinburgh and more widely. If you
+are interested in <a href="join.html">joining us</a>, please get in touch!
+-->
+Welcome, I am currently a senior year undergraduate student from Kuang Yaming Honors School, Nanjing University, majoring in Computer Science. I'm looking for a Ph.D or pre-doctoral research based position in machine learning starting at 2018.
+
+<h4>Education Background</h4>
+</p>
+09/2014 - 07/2018(expected) <br>
+B.S. in Computer Science, Kuang Yaming Honors School, Nanjing University <br> (Selected 98 from 2600 total,exempted from Natinoal College Entrance Examination) <br>
+
+<br>
+08/2016 - 01/2017 <br>
+Exchange student, computer science department, Duke University (Selected 11 from 98) <br>
+GPA: 4.0/4.0 <br>
+
+<br>
+
+<h4>Research Experience</h4>
+09/2015 - 08/2016; 09/2017 -  <br>
+Research Assistant, Advisor: Prof. Yufeng li, LAMDA group, Nanjign University <br>
+
+<br>
+08/2016 - 09/2017 <br>
+Research Assistant, Advisor: Prof. Lawrence Carin, Duke University <br>
+
+<br>
+03/2017 - 09/2017 <br>
+Research Assistant, Advisor: Prof. Cynthia Rudin, Duke University <br>
+
+
+
+<p>
+
+<br>
+
+<h4>News</h4>
+&bull; One paper submitted to AAAI 2018! <br>
+&bull; Two papers accepted by NIPS 2017!
+
+<br><br>
+
+<h4>Talks and Presentations</h4>
+
+&bull; <a href="http://people.ee.duke.edu/~lcarin/Hao6.9.2017.pdf"><b >Bidirectinal GAN</b> </a>, Prof. Lawrence Carin's Group, Duke University
+<br><br>
+<h4>Mics</h4>
+&bull; Sub reviewer NIPS 2017 <br>
+&bull; Sub reviewer ICML 2017
+
+
+<!--
+{% for post in site.talks %}
+    {% include paper.html paper=post %}
+{% endfor %}-->
+<br><br>
+
+
+<h4>Recent Highlights</h4>
+{% for post in site.papers %}
+  {% if post.selected %}
+    {% include paper.html paper=post %}
+  {% endif %}
+{% endfor %}

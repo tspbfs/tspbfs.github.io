@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hao Liu | Papers &amp; Talks</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <br/><br/>
+<img src="img/nav/avater.jpg" class="img-responsive" alt="avater"/>
+<ul class="nav navbar-inverse">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="papers.html">Papers and Talks</a>
+  </li>
+  <li>
+    <a href="teaching.html">Projects</a>
+  </li>
+  <li>
+    <a href="collaborators.html">Collaborators</a>
+  </li>
+  <li>
+    <a href="join.html">Misc</a>
+  </li>
+  <li>
+    <a href="cv.html">CV</a>
+  </li>
+</ul>
+
+        </div>
+        <div class="col-sm-10">
+          <div class="page-header">
+  <h3>Publications</h3>
+</div>
+
+
+  <div class="media">
+  <a class="pull-left thumbnail"  href="hliu96.github.io" >
+    <img src="img/paper/virnng.jpg" alt=""/>
+  </a>
+  <div class="media-body">
+    <strong>On Connecting Stochastic Gradient MCMC and Differential Privacy</strong><br/>
+    Bai Li, Changyou Chen, <b>Hao Liu</b> and Lawrence Carin.
+    
+        <br/> under review at
+        
+          <a href="http://www.aistats.org/">
+            <span class="glyphicon glyphicon-globe"></span>
+          </a>
+          
+            <i>Artificial Intelligence and Statistics(AISTATS)</i>,
+         
+      
+    2018.
+    
+    <br/>
+    
+      <a data-toggle="modal" href="#abstractvirnng" class="label label-default">Abstract</a>
+      <!-- Modal -->
+      <div class="modal fade" id="abstractvirnng" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">On Connecting Stochastic Gradient MCMC and Differential Privacy</h4>
+            </div>
+            <div class="modal-body">
+              Significant success has been realized recently on applying machine learning to real-world applica- tions. There have also been corresponding con- cerns on the privacy of training data, which re- lates to data security and confidentiality issues. Differential privacy provides a principled and rigorous privacy guarantee on machine learning models. While it is common to design a model satisfying a required differential-privacy prop- erty by injecting noise, it is generally hard to balance the trade-off between privacy and util- ity. We show that stochastic gradient Markov chain Monte Carlo (SG-MCMC) – a class of scalable Bayesian posterior sampling algorithms proposed recently – satisfies strong differential privacy with carefully chosen step sizes. We de- velop theory on the performance of the proposed differentially-private SG-MCMC method. We conduct experiments to support our analysis, and show that a standard SG-MCMC sampler with- out any modification (under a default setting) can reach state-of-the-art performance in terms of both privacy and utility on Bayesian learning.
+
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+
+  <div class="media">
+  <a class="pull-left thumbnail"  href="https://arxiv.org/pdf/1710.04806.pdf" >
+    <img src="img/paper/inpress2.jpg" alt=""/>
+  </a>
+  <div class="media-body">
+    <strong><a href="https://arxiv.org/pdf/1710.04806.pdf">Deep Learning for Case-based Reasoning through Prototypes; A Neural Network that Explains its Predictions</a></strong><br/>
+    Oscar Li*, <b>Hao Liu</b>*, Chaofan Chen and Cynthia Rudin (* equal contribution).
+    
+        <br/> under review at
+        
+          <a href="https://nips.cc">
+            <span class="glyphicon glyphicon-globe"></span>
+          </a>
+          
+            <i>AAAI Conference on Artificial Intelligence(AAAI)</i>,
+         
+      
+    2018.
+    
+    <br/>
+    
+      <a data-toggle="modal" href="#abstractinpress2" class="label label-default">Abstract</a>
+      <!-- Modal -->
+      <div class="modal fade" id="abstractinpress2" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"><a href="https://arxiv.org/pdf/1710.04806.pdf">Deep Learning for Case-based Reasoning through Prototypes; A Neural Network that Explains its Predictions</a></h4>
+            </div>
+            <div class="modal-body">
+              Deep neural networks are widely used for classification. These deep models often suffer from a lack of interpretability -- they are particularly difficult to understand because of their non-linear nature. As a result, neural networks are often treated as ''black box'' models, and in the past, have been trained purely to optimize the accuracy of predictions. In this work, we create a novel network architecture for deep learning that naturally explains its own reasoning for each prediction. This architecture contains an autoencoder and a special prototype layer, where each unit of that layer stores a weight vector that resembles an encoded training input. The encoder of the autoencoder allows us to do comparisons within the latent space, while the decoder allows us to visualize the learned prototypes. The training objective has four terms: an accuracy term, a term that encourages every prototype to be similar to at least one encoded input,  a term that encourages every encoded input to be close to at least one prototype, and a term that encourages faithful reconstruction by the autoencoder. The distances computed in the prototype layer are used as part of the classification process. Since the prototypes are learned during training, the learned network naturally comes with explanations for each prediction, and the explanations are loyal to what the network actually computes.
+
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+
+  <div class="media">
+  <a class="pull-left thumbnail"  href="https://arxiv.org/pdf/1709.01215.pdf" >
+    <img src="img/paper/prgg.jpg" alt=""/>
+  </a>
+  <div class="media-body">
+    <strong><a href="https://arxiv.org/pdf/1709.01215.pdf"> Towards Understanding Adversarial Learning for Joint Distribution Matching </a></strong><br/>
+    Chunyuan Li, <b>Hao Liu</b>, Changyou Chen, Yunchen Pu, Liqun Chen, Ricardo Henao and Lawrence Carin.
+    
+        <br> In
+        
+          <a href="https://nips.cc">
+            <span class="glyphicon glyphicon-globe"></span>
+          </a>
+        
+          <i>Neural Information Processing Systems(NIPS)</i>,
+        
+      
+    2017.
+    
+    <br/>
+    
+      <a data-toggle="modal" href="#abstractprgg" class="label label-default">Abstract</a>
+      <!-- Modal -->
+      <div class="modal fade" id="abstractprgg" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"><a href="https://arxiv.org/pdf/1709.01215.pdf"> Towards Understanding Adversarial Learning for Joint Distribution Matching </a></h4>
+            </div>
+            <div class="modal-body">
+              We investigate the non-identifiability issues associated with bidirectional adversarial training for joint distribution matching. Within a framework of conditional entropy, we propose both adversarial and non-adversarial approaches to learn desirable matched joint distributions for unsupervised and supervised tasks. We unify a broad family of adversarial models as joint distribution matching problems. Our approach stabilizes learning of unsupervised bidirectional adversarial learning methods. Further, we introduce an extension for semi-supervised learning tasks. Theoretical results are validated in synthetic data and real-world applications.
+
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    
+    
+    
+    
+    
+      <a href="https://github.com/ChunyuanLI/ALICE" class="label label-success">Code</a>
+    
+  </div>
+</div>
+
+
+  <div class="media">
+  <a class="pull-left thumbnail"  href="https://arxiv.org/pdf/1709.06548.pdf" >
+    <img src="img/paper/rgg.jpg" alt=""/>
+  </a>
+  <div class="media-body">
+    <strong><a href="https://arxiv.org/pdf/1709.06548.pdf">Triangle Generative Adversarial Networks </a></strong><br/>
+    Zhe Gan, Liqun Chen, Weiyao Wang, Yunchen Pu, Yizhe Zhang, <b>Hao Liu</b>, Chunyuan Li and Lawrence Carin.
+    
+        <br> In
+        
+          <a href="https://nips.cc">
+            <span class="glyphicon glyphicon-globe"></span>
+          </a>
+        
+          <i>Neural Information Processing Systems(NIPS)</i>,
+        
+      
+    2017.
+    
+    <br/>
+    
+      <a data-toggle="modal" href="#abstractrgg" class="label label-default">Abstract</a>
+      <!-- Modal -->
+      <div class="modal fade" id="abstractrgg" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"><a href="https://arxiv.org/pdf/1709.06548.pdf">Triangle Generative Adversarial Networks </a></h4>
+            </div>
+            <div class="modal-body">
+              A Triangle Generative Adversarial Network (∆-GAN) is developed for semisupervised cross-domain joint distribution matching, where the training data consists of samples from each domain, and supervision of domain correspondence is provided by only a few paired samples. ∆-GAN consists of four neural networks, two generators and two discriminators. The generators are designed to learn the two-way conditional distributions between the two domains, while the discriminators implicitly define a ternary discriminative function, which is trained to distinguish real data pairs and two kinds of fake data pairs. The generators and discriminators are trained together using adversarial learning. Under mild assumptions, in theory the joint distributions characterized by the two generators concentrate to the data distribution. In experiments, three different kinds of domain pairs are considered, image-label, image-image and image-attribute pairs. Experiments on semi-supervised image classification, image-to-image translation and attribute-based image generation demonstrate the superiority of the proposed approach.
+
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    
+    
+    
+    
+    
+      <a href="https://github.com/LiqunChen0606/Triangle-GAN" class="label label-success">Code</a>
+    
+  </div>
+</div>
+
+
+  <div class="media">
+  <a class="pull-left thumbnail"  href="./papers/Chinese_Handwriting.pdf" >
+    <img src="img/paper/morphlm.jpg" alt=""/>
+  </a>
+  <div class="media-body">
+    <strong><a href="./papers/Chinese_Handwriting.pdf">Chinese Handwriting Writer Identification Using Neural Networks </a> (poster)</strong><br/>
+    <b>Hao Liu</b> and Lawrence Carin.
+    
+        <br> In
+        
+          <i>Duke University ECE department Undergraduate Research Poster Session</i>,
+        
+      
+    2016.
+    
+    <br/>
+    
+      <a data-toggle="modal" href="#abstractmorphlm" class="label label-default">Abstract</a>
+      <!-- Modal -->
+      <div class="modal fade" id="abstractmorphlm" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"><a href="./papers/Chinese_Handwriting.pdf">Chinese Handwriting Writer Identification Using Neural Networks </a> (poster)</h4>
+            </div>
+            <div class="modal-body">
+              I applied latest recurrent neural network model to do the task of Chinese handwriting char- acter writer identification. I implemented the softmax, MLP, LSTM, bidirection LSTM, Hierarchical RNN while using empirical techniques such as dropout and masking. I think using Hierarchical RNN is a new way for this task and it can improve the performance. It is still under experiment. <br> I have finished several steps in this project: <br>  (i) Implement c++ and python program to process CASIA online chinese handwritting data  <br >(ii) implement several latest deep neural network models for this task <br>  (iii) propose a new way to use stroke information in this task by applying Hierarchical Re- current Neural Network
+
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+
+
+<!--
+<div class="page-header">
+<h3>Undergraduate Research Poster</h3>
+</div> -->
+
+
+
+<div class="page-header">
+<h3>Talks</h3>
+</div>
+&bull; <a href="http://people.ee.duke.edu/~lcarin/Hao6.9.2017.pdf"><b >Bidirectinal GAN</b> </a>, Prof. Lawrence Carin's Group, Duke University <br>
+Talked about the paper <a href="https://arxiv.org/pdf/1606.00704.pdf">  Adversarially Learned Inference </a> and <a href="https://arxiv.org/pdf/1605.09782.pdf"> Adversarial Feature Learning </a> in a weekly reading group, be the first undergraduate student to do this. <br>
+&bull; <b >Decision tree</b> </a>, Prof. Yufeng Li's Group, Nanjing University
+
+        </div>
+      </div>
+      <footer class="text-center text-muted">
+        <hr/>
+        Last updated November 05, 2017.<br/>
+        Created with
+        <a href="http://git-scm.com/">git</a>,
+        <a href="http://jekyllrb.com">jekyll</a>,
+        <a href="http://getbootstrap.com/">bootstrap</a>,
+        and <a href="http://www.vim.org/">vim</a>.<br/>
+        Built based on 
+        <a href="https://github.com/alopez/alopez.github.com">Adam Lopez</a>.<br/>
+        <!--Mirrors: <a href="http://homepages.inf.ed.ac.uk/alopez/">inf.ed.ac.uk</a>,
+        <a href="http://alopez.github.io/">github.io</a> -->
+        <br/><br/>
+      </footer>
+    </div>
+  </body>
+</html>
