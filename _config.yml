@@ -12,7 +12,7 @@ papers:
     selected: yes
     year: 2018
     paper-type:  under_review
-    img: virnng
+    img: inpress2
     title:  "On Connecting Stochastic Gradient MCMC and Differential Privacy"
     authors: Bai Li, Changyou Chen, <b>Hao Liu</b> and Lawrence Carin
     booktitle: Artificial Intelligence and Statistics(AISTATS)
@@ -25,8 +25,8 @@ papers:
   - layout: paper
     selected: yes
     year: 2018
-    paper-type:  under_review
-    img: inpress2
+    paper-type:  inproceedings
+    img: aaai2018
     title:  <a href="https://arxiv.org/pdf/1710.04806.pdf">Deep Learning for Case-based Reasoning through Prototypes; A Neural Network that Explains its Predictions</a>
     authors: Oscar Li*, <b>Hao Liu</b>*, Chaofan Chen and Cynthia Rudin (* equal contribution)
     booktitle: AAAI Conference on Artificial Intelligence(AAAI)

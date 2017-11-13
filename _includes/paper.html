@@ -7,16 +7,16 @@
     {% if include.paper.authors %}{{ include.paper.authors }}.{% endif %}
     {% case include.paper.paper-type %}
       {% when "under_review" %}
-        <br/> under review at
+        <br/> Under Review at
         {% if include.paper.booktitle-url %}
           <a href="{{ include.paper.booktitle-url}}">
             <span class="glyphicon glyphicon-globe"></span>
           </a>
           {% endif %}
             <i>{{ include.paper.booktitle }}</i>,
-        {% if include.paper.pages %}pages {{ include.paper.pages }},{% endif %} 
+        {% if include.paper.pages %}pages {{ include.paper.pages }},{% endif %}
       {% when "inproceedings" %}
-        <br> In
+        <br> In Preceedings of
         {% if include.paper.booktitle-url %}
           <a href="{{ include.paper.booktitle-url}}">
             <span class="glyphicon glyphicon-globe"></span>
