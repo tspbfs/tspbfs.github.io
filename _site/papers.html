@@ -35,9 +35,9 @@
   <li>
     <a href="papers.html">Papers and Talks</a>
   </li>
-  <li>
+  <!--<li>
     <a href="teaching.html">Projects</a>
-  </li>
+  </li>-->
   <li>
     <a href="collaborators.html">Collaborators</a>
   </li>
@@ -86,7 +86,7 @@
               <h4 class="modal-title">On Connecting Stochastic Gradient MCMC and Differential Privacy</h4>
             </div>
             <div class="modal-body">
-              Significant success has been realized recently on applying machine learning to real-world applica- tions. There have also been corresponding con- cerns on the privacy of training data, which re- lates to data security and confidentiality issues. Differential privacy provides a principled and rigorous privacy guarantee on machine learning models. While it is common to design a model satisfying a required differential-privacy prop- erty by injecting noise, it is generally hard to balance the trade-off between privacy and util- ity. We show that stochastic gradient Markov chain Monte Carlo (SG-MCMC) – a class of scalable Bayesian posterior sampling algorithms proposed recently – satisfies strong differential privacy with carefully chosen step sizes. We de- velop theory on the performance of the proposed differentially-private SG-MCMC method. We conduct experiments to support our analysis, and show that a standard SG-MCMC sampler with- out any modification (under a default setting) can reach state-of-the-art performance in terms of both privacy and utility on Bayesian learning.
+              Significant success has been realized recently on applying machine learning to real-world applications. There have also been corresponding concerns on the privacy of training data, which relates to data security and confidentiality issues. Differential privacy provides a principled and rigorous privacy guarantee on machine learning models. While it is common to design a model satisfying a required differential-privacy property by injecting noise, it is generally hard to balance the trade-off between privacy and utility. We show that stochastic gradient Markov chain Monte Carlo (SG-MCMC) – a class of scalable Bayesian posterior sampling algorithms proposed recently – satisfies strong differential privacy with carefully chosen step sizes. We develop theory on the performance of the proposed differentially-private SG-MCMC method. We conduct experiments to support our analysis, and show that a standard SG-MCMC sampler without any modification (under a default setting) can reach state-of-the-art performance in terms of both privacy and utility on Bayesian learning.
 
             </div>
           </div><!-- /.modal-content -->
@@ -106,7 +106,7 @@
     <img src="img/paper/aaai2018.jpg" alt=""/>
   </a>
   <div class="media-body">
-    <strong><a href="https://arxiv.org/pdf/1710.04806.pdf">Deep Learning for Case-based Reasoning through Prototypes; A Neural Network that Explains its Predictions</a></strong><br/>
+    <strong><a href="https://arxiv.org/pdf/1710.04806.pdf">Deep Learning for Case-based Reasoning through Prototypes:A Neural Network that Explains its Predictions</a></strong><br/>
     Oscar Li*, <b>Hao Liu</b>*, Chaofan Chen and Cynthia Rudin (* equal contribution).
     
         <br> In Preceedings of
@@ -128,7 +128,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title"><a href="https://arxiv.org/pdf/1710.04806.pdf">Deep Learning for Case-based Reasoning through Prototypes; A Neural Network that Explains its Predictions</a></h4>
+              <h4 class="modal-title"><a href="https://arxiv.org/pdf/1710.04806.pdf">Deep Learning for Case-based Reasoning through Prototypes:A Neural Network that Explains its Predictions</a></h4>
             </div>
             <div class="modal-body">
               Deep neural networks are widely used for classification. These deep models often suffer from a lack of interpretability -- they are particularly difficult to understand because of their non-linear nature. As a result, neural networks are often treated as ''black box'' models, and in the past, have been trained purely to optimize the accuracy of predictions. In this work, we create a novel network architecture for deep learning that naturally explains its own reasoning for each prediction. This architecture contains an autoencoder and a special prototype layer, where each unit of that layer stores a weight vector that resembles an encoded training input. The encoder of the autoencoder allows us to do comparisons within the latent space, while the decoder allows us to visualize the learned prototypes. The training objective has four terms: an accuracy term, a term that encourages every prototype to be similar to at least one encoded input,  a term that encourages every encoded input to be close to at least one prototype, and a term that encourages faithful reconstruction by the autoencoder. The distances computed in the prototype layer are used as part of the classification process. Since the prototypes are learned during training, the learned network naturally comes with explanations for each prediction, and the explanations are loyal to what the network actually computes.
@@ -293,14 +293,15 @@
 <h3>Talks</h3>
 </div>
 &bull; <a href="http://people.ee.duke.edu/~lcarin/Hao6.9.2017.pdf"><b >Bidirectinal GAN</b> </a>, Prof. Lawrence Carin's Group, Duke University <br>
-Talked about the paper <a href="https://arxiv.org/pdf/1606.00704.pdf">  Adversarially Learned Inference </a> and <a href="https://arxiv.org/pdf/1605.09782.pdf"> Adversarial Feature Learning </a> in a weekly reading group, be the first undergraduate student to do this. <br>
+Talked about the paper <a href="https://arxiv.org/pdf/1606.00704.pdf">  Adversarially Learned Inference </a> and <a href="https://arxiv.org/pdf/1605.09782.pdf"> Adversarial Feature Learning </a> in a weekly reading group. <br>
+<!--, be the first undergraduate student to do this. <br>-->
 &bull; <b >Decision tree</b> </a>, Prof. Yufeng Li's Group, Nanjing University
 
         </div>
       </div>
       <footer class="text-center text-muted">
         <hr/>
-        Last updated November 12, 2017.<br/>
+        Last updated November 13, 2017.<br/>
         Created with
         <a href="http://git-scm.com/">git</a>,
         <a href="http://jekyllrb.com">jekyll</a>,

@@ -20,14 +20,14 @@ papers:
     venue: conference paper
     doc-url: hliu96.github.io
     abstract: >
-      Significant success has been realized recently on applying machine learning to real-world applica- tions. There have also been corresponding con- cerns on the privacy of training data, which re- lates to data security and confidentiality issues. Differential privacy provides a principled and rigorous privacy guarantee on machine learning models. While it is common to design a model satisfying a required differential-privacy prop- erty by injecting noise, it is generally hard to balance the trade-off between privacy and util- ity. We show that stochastic gradient Markov chain Monte Carlo (SG-MCMC) – a class of scalable Bayesian posterior sampling algorithms proposed recently – satisfies strong differential privacy with carefully chosen step sizes. We de- velop theory on the performance of the proposed differentially-private SG-MCMC method. We conduct experiments to support our analysis, and show that a standard SG-MCMC sampler with- out any modification (under a default setting) can reach state-of-the-art performance in terms of both privacy and utility on Bayesian learning.
+      Significant success has been realized recently on applying machine learning to real-world applications. There have also been corresponding concerns on the privacy of training data, which relates to data security and confidentiality issues. Differential privacy provides a principled and rigorous privacy guarantee on machine learning models. While it is common to design a model satisfying a required differential-privacy property by injecting noise, it is generally hard to balance the trade-off between privacy and utility. We show that stochastic gradient Markov chain Monte Carlo (SG-MCMC) – a class of scalable Bayesian posterior sampling algorithms proposed recently – satisfies strong differential privacy with carefully chosen step sizes. We develop theory on the performance of the proposed differentially-private SG-MCMC method. We conduct experiments to support our analysis, and show that a standard SG-MCMC sampler without any modification (under a default setting) can reach state-of-the-art performance in terms of both privacy and utility on Bayesian learning.
 
   - layout: paper
     selected: yes
     year: 2018
     paper-type:  inproceedings
     img: aaai2018
-    title:  <a href="https://arxiv.org/pdf/1710.04806.pdf">Deep Learning for Case-based Reasoning through Prototypes; A Neural Network that Explains its Predictions</a>
+    title:  <a href="https://arxiv.org/pdf/1710.04806.pdf">Deep Learning for Case-based Reasoning through Prototypes:A Neural Network that Explains its Predictions</a>
     authors: Oscar Li*, <b>Hao Liu</b>*, Chaofan Chen and Cynthia Rudin (* equal contribution)
     booktitle: AAAI Conference on Artificial Intelligence(AAAI)
     booktitle-url: https://nips.cc
