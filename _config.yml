@@ -13,12 +13,12 @@ papers:
     year: 2018
     paper-type:  under_review
     img: inpress2
-    title:  "On Connecting Stochastic Gradient MCMC and Differential Privacy"
+    title:  <a href="https://arxiv.org/pdf/1712.09097.pdf">On Connecting Stochastic Gradient MCMC and Differential Privacy</a>
     authors: Bai Li, Changyou Chen, <b>Hao Liu</b> and Lawrence Carin
-    booktitle: Artificial Intelligence and Statistics(AISTATS)
-    booktitle-url: http://www.aistats.org/
+    booktitle: International Conference on Machine Learning(ICML)
+    booktitle-url: https://icml.cc/Conferences/2018/CallForPapers
     venue: conference paper
-    doc-url: hliu96.github.io
+    doc-url: https://arxiv.org/abs/1712.09097
     abstract: >
       Significant success has been realized recently on applying machine learning to real-world applications. There have also been corresponding concerns on the privacy of training data, which relates to data security and confidentiality issues. Differential privacy provides a principled and rigorous privacy guarantee on machine learning models. While it is common to design a model satisfying a required differential-privacy property by injecting noise, it is generally hard to balance the trade-off between privacy and utility. We show that stochastic gradient Markov chain Monte Carlo (SG-MCMC) – a class of scalable Bayesian posterior sampling algorithms proposed recently – satisfies strong differential privacy with carefully chosen step sizes. We develop theory on the performance of the proposed differentially-private SG-MCMC method. We conduct experiments to support our analysis, and show that a standard SG-MCMC sampler without any modification (under a default setting) can reach state-of-the-art performance in terms of both privacy and utility on Bayesian learning.
 
