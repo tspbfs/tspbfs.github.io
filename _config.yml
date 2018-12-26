@@ -10,13 +10,13 @@ talks:
 papers:
   - layout: paper
     selected: yes
-    year: 2018
-    paper-type:  under_review
+    year: 2019
+    paper-type:  inproceedings
     img: inpress2
     title:  <a href="https://arxiv.org/pdf/1712.09097.pdf">On Connecting Stochastic Gradient MCMC and Differential Privacy</a>
     authors: Bai Li, Changyou Chen, <b>Hao Liu</b> and Lawrence Carin
-    booktitle: International Conference on Machine Learning(ICML)
-    booktitle-url: https://icml.cc/Conferences/2018/CallForPapers
+    booktitle: International Conference on Artificial Intelligence and Statistics(AISTATS)
+    booktitle-url: https://www.aistats.org/
     venue: conference paper
     doc-url: https://arxiv.org/abs/1712.09097
     abstract: >
