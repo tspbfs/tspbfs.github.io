@@ -64,19 +64,5 @@ papers:
     code: https://github.com/LiqunChen0606/Triangle-GAN
     abstract: >
       A Triangle Generative Adversarial Network (∆-GAN) is developed for semisupervised cross-domain joint distribution matching, where the training data consists of samples from each domain, and supervision of domain correspondence is provided by only a few paired samples. ∆-GAN consists of four neural networks, two generators and two discriminators. The generators are designed to learn the two-way conditional distributions between the two domains, while the discriminators implicitly define a ternary discriminative function, which is trained to distinguish real data pairs and two kinds of fake data pairs. The generators and discriminators are trained together using adversarial learning. Under mild assumptions, in theory the joint distributions characterized by the two generators concentrate to the data distribution. In experiments, three different kinds of domain pairs are considered, image-label, image-image and image-attribute pairs. Experiments on semi-supervised image classification, image-to-image translation and attribute-based image generation demonstrate the superiority of the proposed approach.
-  - layout: poster
-    selected: yes
-    year: 2016
-    paper-type: inproceedings
-    img: morphlm
-    title: <a href="./papers/Chinese_Handwriting.pdf">Chinese Handwriting Writer Identification Using Neural Networks </a> (poster)
-    authors:  <b>Hao Liu</b> and Lawrence Carin
-    booktitle:  Duke University ECE department Undergraduate Research Poster Session
-    booktitle-url:
-    venue: poster
-    doc-url: ./papers/Chinese_Handwriting.pdf
-    abstract: >
-      I applied latest recurrent neural network model to do the task of Chinese handwriting char- acter writer identification. I implemented the softmax, MLP, LSTM, bidirection LSTM, Hierarchical RNN while using empirical techniques such as dropout and masking. I think using Hierarchical RNN is a new way for this task and it can improve the performance. It is still under experiment. <br>
-      I have finished several steps in this project:
-      <br>  (i) Implement c++ and python program to process CASIA online chinese handwritting data  <br >(ii) implement several latest deep neural network models for this task
-      <br>  (iii) propose a new way to use stroke information in this task by applying Hierarchical Re- current Neural Network
+
+
